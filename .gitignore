@@ -1,14 +1,12 @@
-.vscode
-dev/
-dist/
+dist/*/
+
+
 
 *.class
 *.log
 *.pyc
 *.swp
-.history
 .kotlin/
-
 .dart_tool/
 build/
 coverage/
