@@ -1,6 +1,5 @@
-#!/usr/bin/env pwsh
+#!/bin/env pwsh
 
-# Fatal errors
 $ErrorActionPreference = "Stop"
 
 flutter clean
@@ -12,4 +11,4 @@ Remove-Item -Recurse -Force "dist/windows/*" -ErrorAction SilentlyContinue
 Move-Item -Force "build/windows/x64/release/bundle/*" "dist/windows/"
 
 # I hate powershell
-Write-Output "See /dist/windows"
+Write-Output "Moved to /dist/windows"

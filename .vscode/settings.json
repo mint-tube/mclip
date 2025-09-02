@@ -4,6 +4,7 @@
     "pubspec.lock": true,
     ".metadata": true,
     ".dart_tool": true,
-    ".git": true
+    ".git": true,
+    ".vscode": true
   }
 }

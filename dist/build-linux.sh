@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/env sh
 
 # fatal errors
 set -e
@@ -8,7 +8,7 @@ flutter pub get
 flutter build linux
 
 mkdir -p dist/linux/
-rm -rf dist/linux/* || true   # ignore if empty
+rm -rf dist/linux/* || true
 mv build/linux/x64/release/bundle/* dist/linux/ || true
 
-echo See dist/linux 
+echo Moved to dist/linux/ 

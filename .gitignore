@@ -1,4 +1,6 @@
-dist/*/
+dist/android
+dist/linux
+dist/windows
 
 
 
