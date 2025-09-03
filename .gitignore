@@ -3,7 +3,7 @@ dist/linux
 dist/windows
 
 
-
+*.iml
 *.class
 *.log
 *.pyc
